@@ -1,0 +1,41 @@
+
+body {
+    background: url("galaxy.jpg");
+    background-size: 100% 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+button {
+    display: block;
+    background: black;
+    padding: 5px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+button:hover {
+    color: black;
+    background: white;
+}
+
+
+h1, h5 {
+    color: white;
+}
+
+
+h5{
+    background: rgba(0,0,0,0.6);
+    padding: 5px;
+}
+
+
+img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 100%;
+    box-shadow: 0 0 50px white;
+}
